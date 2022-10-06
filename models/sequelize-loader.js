@@ -23,8 +23,3 @@ const sequelize = process.env.DATABASE_URL ?
       logging: false
     }
   );
-
-module.exports = {
-  sequelize,
-  DataTypes
-};
